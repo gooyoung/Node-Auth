@@ -1,0 +1,21 @@
+{
+  "name": "node-Auth",
+  "version": "1.0.0",
+  "description": "Authorization login/register with Node Express Mongoose",
+  "author": "zivhe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.1.9",
+    "mongoose": "^4.7.1",
+    "morgan": "^1.8.1",
+    "passport": "^0.3.2",
+    "passport-http-bearer": "^1.0.1"
+  }
+}
