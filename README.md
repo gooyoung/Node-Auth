@@ -12,8 +12,8 @@
     * password: 密码
     * token: 验证相关token
     
-* 目录结构
-   ├── app                       
+* 目录结构  
+                    
        ├── index.js                        入口页面
        ├── passport.js                     配置权限模块所需功能
        ├── package.json                    npm包配置文件
