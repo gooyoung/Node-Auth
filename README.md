@@ -13,18 +13,18 @@
     * token: 验证相关token
     
 * 目录结构
-├── app                       
-    ├── index.js                        入口页面
-    ├── passport.js                     配置权限模块所需功能
-    ├── package.json                    npm包配置文件
-    ├── config.js                       配置MongoDB数据库连接和token的密钥。
-    ├── models                          模型文件夹    
-    │   └── user.js                         用户模型
-    ├── routers                         路由相关文件    
-    │   ├── index.js                         路由入口
-    │   └── users.js                         根组    
-    ├── static                          可以删除
-    └── README.md  
+   ├── app                       
+       ├── index.js                        入口页面
+       ├── passport.js                     配置权限模块所需功能
+       ├── package.json                    npm包配置文件
+       ├── config.js                       配置MongoDB数据库连接和token的密钥。
+       ├── models                          模型文件夹    
+       │   └── user.js                         用户模型
+       ├── routers                         路由相关文件    
+       │   ├── index.js                         路由入口
+       │   └── users.js                         根组    
+       ├── static                          可以删除
+       └── README.md  
 
 * 依赖包
     * express : 基于 Node.js 平台的 web 应用开发框架
