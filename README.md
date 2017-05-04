@@ -85,8 +85,9 @@
 * url：localhost:8080/api/user/accesstoken
 * method：POST 
 
-![image](https://raw.githubusercontent.com/gooyoung/Node-Auth/master/static/3.jpg)
-  如果name或者password输错会返回验证失败。
+![image](https://raw.githubusercontent.com/gooyoung/Node-Auth/master/static/3.jpg)  
+
+如果name或者password输错会返回验证失败。
 
 #### 获取用户信息
   
