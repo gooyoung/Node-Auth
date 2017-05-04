@@ -74,18 +74,18 @@
 | name     | zivhe  |
 | password | 123456 | 
 
-![image](https://github.com/gooyoung/Node-Auth/tree/master/static/1.jpg)
+![image](https://raw.githubusercontent.com/gooyoung/Node-Auth/master/static/1.jpg)
 
 用MongoChef连接数据库可以看到password被加密保存了  
 
-![image](https://github.com/gooyoung/Node-Auth/tree/master/static/2.jpg)
+![image](https://raw.githubusercontent.com/gooyoung/Node-Auth/master/static/2.jpg)
 
 #### 获取专属token   
 
 * url：localhost:8080/api/user/accesstoken
 * method：POST 
 
-![image](https://github.com/gooyoung/Node-Auth/tree/master/static/3.jpg)
+![image](https://raw.githubusercontent.com/gooyoung/Node-Auth/master/static/3.jpg)
   如果name或者password输错会返回验证失败。
 
 #### 获取用户信息
@@ -94,5 +94,5 @@
 * method：GET 
 在head中加入token信息
 
-![image](https://github.com/gooyoung/Node-Auth/tree/master/static/4.jpg)
+![image](https://raw.githubusercontent.com/gooyoung/Node-Auth/master/static/4.jpg)
 
