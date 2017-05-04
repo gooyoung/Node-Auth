@@ -14,17 +14,17 @@
     
 * 目录结构
                   
-       ├── index.js                        入口页面
-       ├── passport.js                     配置权限模块所需功能
-       ├── package.json                    npm包配置文件
-       ├── config.js                       配置MongoDB数据库连接和token的密钥。
-       ├── models                          模型文件夹    
-       │   └── user.js                         用户模型
-       ├── routers                         路由相关文件    
-       │   ├── index.js                         路由入口
-       │   └── users.js                         根组    
-       ├── static                          可以删除
-       └── README.md  
+      ├── index.js                        入口页面
+      ├── passport.js                     配置权限模块所需功能
+      ├── package.json                    npm包配置文件
+      ├── config.js                       配置MongoDB数据库连接和token的密钥。
+      ├── models                          模型文件夹    
+      │   └── user.js                         用户模型
+      ├── routers                         路由相关文件    
+      │   ├── index.js                         路由入口
+      │   └── users.js                         根组    
+      ├── static                          可以删除
+      └── README.md  
 
 * 依赖包
     * express : 基于 Node.js 平台的 web 应用开发框架
@@ -52,8 +52,10 @@
 
 ### 运行  
 
-`git clone https://github.com/Nicksapp/nAuth-restful-api.git`
-`npm install`
+`git clone https://github.com/gooyoung/Node-Auth.git`  
+
+`npm install`  
+
 `node index`
 
 服务器运行在 `localhost:8080/`
@@ -72,18 +74,18 @@
 | name     | zivhe  |
 | password | 123456 | 
 
-![image](https://raw.githubusercontent.com/gooyoung/Node-Auth/master/static/1.jpg)
+![image](https://github.com/gooyoung/Node-Auth/tree/master/static/1.jpg)
 
 用MongoChef连接数据库可以看到password被加密保存了  
 
-![image](https://raw.githubusercontent.com/gooyoung/Node-Auth/master/static/2.jpg)
+![image](https://github.com/gooyoung/Node-Auth/tree/master/static/2.jpg)
 
 #### 获取专属token   
 
 * url：localhost:8080/api/user/accesstoken
 * method：POST 
 
-![image](https://raw.githubusercontent.com/gooyoung/Node-Auth/master/static/2.jpg)
+![image](https://github.com/gooyoung/Node-Auth/tree/master/static/3.jpg)
   如果name或者password输错会返回验证失败。
 
 #### 获取用户信息
@@ -92,5 +94,5 @@
 * method：GET 
 在head中加入token信息
 
-![image](https://raw.githubusercontent.com/gooyoung/Node-Auth/master/static/4.jpg)
+![image](https://github.com/gooyoung/Node-Auth/tree/master/static/4.jpg)
 
