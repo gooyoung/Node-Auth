@@ -13,7 +13,7 @@
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "jsonwebtoken": "^7.1.9",
-    "mongoose": "^4.7.1",
+    "mongoose": "^5.3.9",
     "morgan": "^1.8.1",
     "passport": "^0.3.2",
     "passport-http-bearer": "^1.0.1"
